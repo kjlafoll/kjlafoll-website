@@ -10,9 +10,12 @@ role: ""
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Decision-making
+  - Fear
+  - Stress
+  - Learning
+  - Affective Neuroscience
+  - Computational Cognitive Modeling
 social:
   - icon: envelope
     icon_pack: fas
@@ -36,7 +39,6 @@ user_groups:
   - Researchers
   - Visitors
 ---
+I'm currently a PhD student in Department of Psychological Sciences at Case Western Reserve University, working primarily with Drs. Heath Demaree and Brooke Macnamara. My research focuses on understanding and modeling affective decision-making. Areas of interest include risk and threat perception, the learning and maintenance of mental models, demand-accuracy tradeoffs, and the propensity to choke under threat, pressure, and fear.
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I received his B.Sc. in Cognitive Science and Biopsychology from the University of Michigan, and served as a post-baccalaureate researcher in the labs of Drs. William Killgore and Vinod Menon, at the University of Arizona and Stanford University, respectively. I've previously studied the effects of psychological stress (i.e., peer pressure, monetary incentives), and physiological stress (i.e., sleep deprivation, mild electric shock) on complex cognitive performance, as well as the effects of domain-specific training and anxiety on neurodevelopmental trajectories in math learning.
