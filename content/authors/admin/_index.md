@@ -1,12 +1,13 @@
 ---
+title: Kyle J. LaFollette
+role: ""
+avatar_filename: o8ve9uva_400x400.jpg
 organizations:
   - name: Case Western Reserve University
     url: ""
 superuser: true
 authors:
   - admin
-title: Kyle J. LaFollette
-role: ""
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
