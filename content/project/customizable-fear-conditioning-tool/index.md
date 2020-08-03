@@ -10,4 +10,4 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-dfdfdfd
+Fully customizable PsychoPy program for fear conditioning. Easy to use GUI and several preset options for pseudo-randomly generated trials.
