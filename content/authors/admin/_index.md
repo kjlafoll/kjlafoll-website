@@ -1,7 +1,7 @@
 ---
 title: Kyle J. LaFollette
 role: ""
-avatar_filename: o8ve9uva_400x400.jpg
+avatar_filename: avatar.jpg
 organizations:
   - name: Case Western Reserve University
     url: ""
