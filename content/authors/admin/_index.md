@@ -32,7 +32,7 @@ education:
   courses:
     - course: BSc in Biopsychology & Cognitive Science
       institution: University of Michigan
-      year: 2017
+      year: ""
 email: ""
 user_groups:
   - Researchers
