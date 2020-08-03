@@ -10,7 +10,7 @@ subtitle = ""
 
 [content]
   # Page type to display. E.g. project.
-  page_type = "open-access"
+  page_type = "project"
   
   # Filter toolbar (optional).
   # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
@@ -22,8 +22,8 @@ subtitle = ""
   filter_default = 0
   
   # [[content.filter_button]]
-  #   name = "All"
-  #   tag = "*"
+     name = "All"
+     tag = "*"
   
   # [[content.filter_button]]
   #   name = "Deep Learning"
@@ -57,8 +57,8 @@ subtitle = ""
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "DeepSkyBlue"
-  gradient_end = "SkyBlue"
+  gradient_start = "DeepBlue"
+  gradient_end = "Blue"
   
   # Background image.
   # image = "background.jpg"  # Name of image in `static/media/`.
