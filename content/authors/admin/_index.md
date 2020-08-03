@@ -11,11 +11,10 @@ bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
   - Decision-making
-  - Fear
-  - Stress
-  - Learning
+  - Fear Acquisition
+  - Choking Under Pressure
   - Affective Neuroscience
-  - Computational Cognitive Modeling
+  - Cognitive Modeling
 social:
   - icon: envelope
     icon_pack: fas
