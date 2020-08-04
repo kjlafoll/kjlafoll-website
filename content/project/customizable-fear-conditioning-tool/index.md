@@ -6,7 +6,7 @@ draft: false
 featured: false
 external_link: https://github.com/kjlafoll/anl-exploration-fear-project/wiki
 image:
-  filename: stress-icons-noun-project-368522.png
+  filename: featured.png
   focal_point: Smart
   preview_only: true
 ---
