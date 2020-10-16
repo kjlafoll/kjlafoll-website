@@ -1,5 +1,5 @@
 ---
-title: Audio Test
+title: DSP-Test
 subtitle: ""
 date: 2020-08-03T07:41:12.721Z
 draft: false
