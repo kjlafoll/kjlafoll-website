@@ -2,7 +2,7 @@
 URL = window.URL || window.webkitURL;
 
 var textlist = {
-	1: 'In the following task, you will be asked to complete sequences of motion by moving your mouse/trackpad. You will see eight (8) rings arranged in a circle. Each ring will light up one at a time, in a sequence. You will also see a small ball in the center of the screen. Your job is to move this ball using your mouse/trackpad to the highlighted rings as quickly as possible. As you learn the sequences, you will get faster. Try to move the ball to the rings, in order, as quickly and as accurately as you can.',
+	1: 'You will now see four shapes. Please attend to all images presented.',
 	2: 'There will be a total of three (3) sequences to learn. Each of these sequences are eight (8) rings in length, and are composed of a combination of all eight (8) rings. Each sequence will also be associated with a color cue. At the start of each trial, you will be shown either a blue, red, or grey square. Your job is to learn which cue is associated with which sequence. The color cues will help you prepare your pathing. You will perform better by learning the color cues.',
 	3: 'You will now play through a training period where you will learn the sequences and color cues. This training period will be followed by a testing period, during which you can earn cash bonuses. Please now focus on the task at hand; the task will start as soon as you press the Continue button. Good luck!'
 }
@@ -17,10 +17,12 @@ var endButton;
 continueButton.addEventListener("click", continueAction);
 
 function instructions() {
-	insttext = textlist[listc]
-	prestext.innerHTML = "<stimPres>" +
+	var checkers = JSON.parse(localStorage.getItem('mysetup'))
+	insttext = JSON.stringify(checkers[listc-1])
+	// insttext = textlist[listc]
+	prestext.innerHTML = "<body>" +
 		insttext +
-		"</stimPres>" +
+		"</body>" +
 		'<div id="controls">' +
   	 	'<button id="continueButton">Continue</button>' +
     	'</div>';
@@ -50,10 +52,12 @@ function stopAction() {
 }
 
 function continueAction() {
-	if (listc == 1 || listc == 2 || listc == 3) {
+	// if (listc == 1 || listc == 2 || listc == 3) {
+	// 	instructions();
+	if (listc <=14){
 		instructions();
-	} else if (listc > 3) {
-		trial();
+	} else if (listc > 14) {
+		// trial();
 	}
 }
 
